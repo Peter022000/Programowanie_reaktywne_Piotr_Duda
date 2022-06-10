@@ -55,9 +55,9 @@ class LoginForm extends Component {
     };
 
     handleChange = (event) => {
-        const account = {...this.state.account};
-        account[event.currentTarget.name] = event.currentTarget.value;
-        this.setState({account});
+//        const account = {...this.state.account};
+//        account[event.currentTarget.name] = event.currentTarget.value;
+//        this.setState({account});
     };
 
 
